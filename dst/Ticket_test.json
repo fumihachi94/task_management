@@ -1,0 +1,19 @@
+{
+  "created": "2020/04/18 13:18:33",
+  "updated": "2020/04/18 13:18:33",
+  "title": "Test",
+  "assign": "Member 1",
+  "description": "ここに説明",
+  "status": "New",
+  "priority": "Low",
+  "start": {
+    "year": 2020,
+    "month": 4,
+    "day": 18
+  },
+  "limit": {
+    "year": 2020,
+    "month": 5,
+    "day": 1
+  }
+}

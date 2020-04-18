@@ -96,7 +96,8 @@ class Application(tk.Frame):
         self.panel_img = tk.Label(fm_img)
         self.panel_img.pack()
         # スクロールバー
-        bar_y = ttk.Scrollbar(pw_right, orient=tk.VERTICAL)
+        bar_y = ttk.Scrollbar(pw_right
+        , orient=tk.VERTICAL)
         #bar_x = ttk.Scrollbar(pw_right, orient=tk.HORIZONTAL)
         bar_y.pack(side=tk.RIGHT, fill=tk.Y)
         #bar_x.pack(side=tk.BOTTOM, fill=tk.X)
