@@ -4,18 +4,9 @@ import wx.xrc as xrc
 import datetime
 import json
 
-class TicketDefault():
-    def __init__(self):
-        self.title = "No title"
-        self.description = ""
-
 class TicketForm(wx.App):
     def __init__(self, width, height, title='TicketForm', redirect=False):
         super().__init__(redirect)
-        
-        self.input = TicketDefault()
-        self.input.title = "No title"
-        self.input.description = ""
         
         self.data = {
             'created' : "",
@@ -148,7 +139,6 @@ class TicketForm(wx.App):
 def main():
     app = TicketForm(640, 480, "New Ticket", False)
     app.MainLoop()
-    #TicketForm()
 
 
 if __name__ == "__main__":
